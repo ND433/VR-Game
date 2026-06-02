@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5150345352996256684}
   m_Layer: 0
   m_Name: Basketball
-  m_TagString: Ball
+  m_TagString: Football
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
