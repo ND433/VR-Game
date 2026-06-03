@@ -15518,7 +15518,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Controls: Rechter controller klik je triger tewel je kijkt naar object
+  m_text: 'Controls: Linker controller klik je triger tewel je kijkt naar object
     pak je het vast en gooi je het door grip'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
