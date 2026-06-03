@@ -7,7 +7,6 @@ TagManager:
   - Anchor
   - Football
   - Basketball
-  - Ball
   layers:
   - Default
   - TransparentFX
