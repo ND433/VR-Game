@@ -2,6 +2,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement; 
 public class SceneLoader : MonoBehaviour
 {
+    float timer = 5f;
+
     [Tooltip("The exact name of the scene to load.")]
     public string sceneName;
 
@@ -15,5 +17,12 @@ public class SceneLoader : MonoBehaviour
         {
             Debug.LogWarning("Scene name is not set on " + gameObject.name);
         }
+    }
+
+    private void Update()
+    {
+        timer -= Time.deltaTime;
+
+        if (timer < 0) LoadTargetScene();
     }
 }
