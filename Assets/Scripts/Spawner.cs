@@ -5,7 +5,7 @@ public class Spawner : MonoBehaviour
     public GameObject spawnObject;
     public Transform spawnTarget;
     GameObject createdObject;
-    float spawnTimer = 3f;
+    public float spawnTimer = 3f;
 
     // Update is called once per frame
     void Update()
