@@ -185,7 +185,7 @@ MonoBehaviour:
     goal.
 
 
-    Grab with the grip and walk with the right joystick'
+    Grab with the grip and walk with the left joystick'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1758,6 +1758,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35d99aa9219a63b44b36b0b1be2e80c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tagName: Football
   score: {fileID: 296652402}
 --- !u!23 &1317448445
 MeshRenderer:
@@ -2110,19 +2111,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8806329115733545878, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.49999982
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 8806329115733545878, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8806329115733545878, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.8660255
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 8806329115733545878, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8806329115733545878, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2130,7 +2131,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8806329115733545878, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 120
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 8806329115733545878, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -2522,6 +2523,10 @@ PrefabInstance:
     - target: {fileID: 2687466086564656101, guid: a089ad39019bca34981ab2132c14a3f5, type: 3}
       propertyPath: m_Name
       value: Spawner (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4446652322952013561, guid: a089ad39019bca34981ab2132c14a3f5, type: 3}
+      propertyPath: spawnTimer
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 4446652322952013561, guid: a089ad39019bca34981ab2132c14a3f5, type: 3}
       propertyPath: spawnObject
@@ -3501,6 +3506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35d99aa9219a63b44b36b0b1be2e80c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tagName: Basketball
   score: {fileID: 296652402}
 --- !u!64 &1870364445
 MeshCollider:
