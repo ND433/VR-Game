@@ -5,6 +5,7 @@ public class Spawner : MonoBehaviour
     public GameObject spawnObject;
     public Transform spawnTarget;
     GameObject createdObject;
+    public float spawnTime = 3f;
     public float spawnTimer = 3f;
 
     // Update is called once per frame
@@ -16,7 +17,7 @@ public class Spawner : MonoBehaviour
         if (!createdObject)
         {
             createdObject = Instantiate(spawnObject, spawnTarget.position, spawnTarget.rotation);
-            spawnTimer = 5f;
+            spawnTimer = spawnTime;
         }
         else
         {
